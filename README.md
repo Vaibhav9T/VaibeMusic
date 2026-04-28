@@ -1,16 +1,65 @@
-# React + Vite
+# VaibeMusic 🎵
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VaibeMusic is a sleek, modern web-based music player built with React, Vite, and Tailwind CSS. It leverages the [Audius API](https://audius.co/) to fetch and stream top trending tracks directly in your browser. With a dynamic UI that adapts its aesthetic based on the currently playing track's artwork, VaibeMusic provides an immersive listening experience.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Trending Tracks Integration:** Real-time fetching of trending music from Audius.
+- **Dynamic Backgrounds:** Analyzes track artwork to generate a matching background ambient glow.
+- **Audio Controls:** Play, pause, skip, and volume/mute controls.
+- **Progress Tracking:** Real-time track progress and seekbar functionality.
+- **Responsive Design:** Clean, dark-mode focused UI built with Tailwind CSS.
 
-## React Compiler
+## Tech Stack 🛠️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS 4
+- **Icons:** Heroicons (`@heroicons/react`)
+- **Color Extraction:** `fast-average-color` (for dynamic UI theming)
 
-## Expanding the ESLint configuration
+## Getting Started 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vaibhav9T/VaibeMusic.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd VaibeMusic
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit `http://localhost:5173` to enjoy the tunes!
+
+## Building for Production 🏗️
+
+To create an optimized production build, run:
+```bash
+npm run build
+```
+
+You can preview the built app using:
+```bash
+npm run preview
+```
+
+## Acknowledgments 🙌
+
+- [Audius API](https://audius.co/) for the decentralized music catalog.
+- [Vite](https://vitejs.dev/) & [React](https://react.dev/) for the blazing-fast development experience.
