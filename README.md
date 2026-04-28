@@ -1,8 +1,4 @@
-# <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./src/assets/vb_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./src/assets/vb_light.png">
-  <img alt="VaibeMusic Icon" src="./src/assets/vb_light.png" height="32" align="center">
-</picture> VaibeMusic 🎵
+# VaibeMusic 🎵
 
 VaibeMusic is a sleek, modern web-based music player built with React, Vite, and Tailwind CSS. It leverages the [Audius API](https://audius.co/) to fetch and stream top trending tracks directly in your browser. With a dynamic UI that adapts its aesthetic based on the currently playing track's artwork, VaibeMusic provides an immersive listening experience.
 
